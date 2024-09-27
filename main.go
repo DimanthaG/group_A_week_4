@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("Unsorted:", nums)
 	bubbleSort(nums)
     fmt.Println("Sorted:", nums)
+	fmt.Println("sum of an array is ",sumArray(nums)) //Divyanshu - Array Sum
 	result, err := errorHandling(5, 0)	//Sujan Thapa - Error Handling
 	if err != nil {
 		fmt.Println("Error:", err)
