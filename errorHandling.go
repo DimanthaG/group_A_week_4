@@ -1,8 +1,6 @@
 package main
 
-import (
-	"errors"
-)
+import "errors"
 
 func errorHandling(a, b float64) (result float64, err error) {
 	if b == 0 {
@@ -10,5 +8,5 @@ func errorHandling(a, b float64) (result float64, err error) {
 		return
 	}
 	result = a / b
-	return // Automatically returns 'result' and 'err' (which is nil here)
+	return // Automatically returns 'result' and 'err' (here it is nil)
 }
